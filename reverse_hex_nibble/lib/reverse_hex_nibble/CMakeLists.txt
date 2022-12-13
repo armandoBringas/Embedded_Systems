@@ -1,0 +1,3 @@
+add_library(reverse_hex_nibble SHARED reverse_hex_nibble.h reverse_hex_nibble.c)
+
+target_include_directories(reverse_hex_nibble PUBLIC ${CMAKE_CURRENT_LIST_DIR})
